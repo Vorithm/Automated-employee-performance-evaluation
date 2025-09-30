@@ -1,6 +1,7 @@
 langchain
 langchain-community
 langchain_google_genai
+sentence_transformers
 faiss-cpu
 fastapi
 uvicorn
