@@ -10,7 +10,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 
-API_URL = os.getenv("API_URL", "http://localhost:8000")
+API_URL = "https://automated-employee-performance-evaluation.onrender.com"
 api_endpoint_for_summary_generation = f"{API_URL}/generate_report"
 
 # Page config
