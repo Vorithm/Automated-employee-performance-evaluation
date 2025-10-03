@@ -8,7 +8,7 @@ from dotenv import load_dotenv
 load_dotenv()
 import os
 
-API_URL = (f"{os.getenv('API_URL')}" if os.getenv('API_URL') else "http://localhost:8000")
+API_URL = "https://employee-performance-evaluator.onrender.com"
 api_endpoint_for_summary_generation = f"{API_URL}/generate_report"
 
 st.set_page_config(page_title="AI Performance Insights", page_icon="💡", layout="wide")
