@@ -1,9 +1,9 @@
 langchain
 langchain-community
+sentence-transformers
 langchain_google_genai
-sentence_transformers
-faiss-cpu
 fastapi
 uvicorn
 pydantic
 dotenv
+pinecone
